@@ -1,0 +1,176 @@
+=== Crate version: Some("0.84.5")
+=== Environment configuration:
+===   OPENCV_PACKAGE_NAME = None
+===   OPENCV_PKGCONFIG_NAME = None
+===   OPENCV_CMAKE_NAME = None
+===   OPENCV_CMAKE_BIN = None
+===   OPENCV_VCPKG_NAME = None
+===   OPENCV_LINK_LIBS = None
+===   OPENCV_LINK_PATHS = None
+===   OPENCV_INCLUDE_PATHS = None
+===   OPENCV_DISABLE_PROBES = None
+===   OPENCV_MSVC_CRT = None
+===   CMAKE_PREFIX_PATH = None
+===   OpenCV_DIR = Some("/opt/opencv/lib/cmake/opencv4")
+===   PKG_CONFIG_PATH = Some("/opt/opencv/lib/pkgconfig:")
+===   VCPKG_ROOT = None
+===   VCPKGRS_DYNAMIC = None
+===   VCPKGRS_TRIPLET = None
+===   OCVRS_DOCS_GENERATE_DIR = None
+===   DOCS_RS = None
+===   PATH = Some("/home/buvr_tp4/miniconda3/bin:/home/buvr_tp4/miniconda3/condabin:/home/buvr_tp4/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin")
+=== Enabled features:
+===   CALIB3D
+===   FEATURES2D
+===   FLANN
+===   HIGHGUI
+===   IMGPROC
+=== Detected probe priority based on environment vars: pkg_config: true, cmake: true, vcpkg: false
+=== Probing the OpenCV library in the following order: environment, pkg_config, cmake, vcpkg_cmake, vcpkg
+=== Can't probe using: environment, continuing with other methods because: Some environment variables are missing
+=== Probing OpenCV library using pkg_config
+=== Successfully probed using: pkg_config
+=== OpenCV library configuration: Library {
+    include_paths: [
+        "/usr/include/opencv4",
+    ],
+    version: Version {
+        major: 4,
+        minor: 6,
+        patch: 0,
+    },
+    cargo_metadata: [
+        "cargo:rustc-link-search=/usr/lib/x86_64-linux-gnu",
+        "cargo:rustc-link-lib=opencv_stitching",
+        "cargo:rustc-link-lib=opencv_alphamat",
+        "cargo:rustc-link-lib=opencv_aruco",
+        "cargo:rustc-link-lib=opencv_barcode",
+        "cargo:rustc-link-lib=opencv_bgsegm",
+        "cargo:rustc-link-lib=opencv_bioinspired",
+        "cargo:rustc-link-lib=opencv_ccalib",
+        "cargo:rustc-link-lib=opencv_cvv",
+        "cargo:rustc-link-lib=opencv_dnn_objdetect",
+        "cargo:rustc-link-lib=opencv_dnn_superres",
+        "cargo:rustc-link-lib=opencv_dpm",
+        "cargo:rustc-link-lib=opencv_face",
+        "cargo:rustc-link-lib=opencv_freetype",
+        "cargo:rustc-link-lib=opencv_fuzzy",
+        "cargo:rustc-link-lib=opencv_hdf",
+        "cargo:rustc-link-lib=opencv_hfs",
+        "cargo:rustc-link-lib=opencv_img_hash",
+        "cargo:rustc-link-lib=opencv_intensity_transform",
+        "cargo:rustc-link-lib=opencv_line_descriptor",
+        "cargo:rustc-link-lib=opencv_mcc",
+        "cargo:rustc-link-lib=opencv_quality",
+        "cargo:rustc-link-lib=opencv_rapid",
+        "cargo:rustc-link-lib=opencv_reg",
+        "cargo:rustc-link-lib=opencv_rgbd",
+        "cargo:rustc-link-lib=opencv_saliency",
+        "cargo:rustc-link-lib=opencv_shape",
+        "cargo:rustc-link-lib=opencv_stereo",
+        "cargo:rustc-link-lib=opencv_structured_light",
+        "cargo:rustc-link-lib=opencv_phase_unwrapping",
+        "cargo:rustc-link-lib=opencv_superres",
+        "cargo:rustc-link-lib=opencv_optflow",
+        "cargo:rustc-link-lib=opencv_surface_matching",
+        "cargo:rustc-link-lib=opencv_tracking",
+        "cargo:rustc-link-lib=opencv_highgui",
+        "cargo:rustc-link-lib=opencv_datasets",
+        "cargo:rustc-link-lib=opencv_text",
+        "cargo:rustc-link-lib=opencv_plot",
+        "cargo:rustc-link-lib=opencv_ml",
+        "cargo:rustc-link-lib=opencv_videostab",
+        "cargo:rustc-link-lib=opencv_videoio",
+        "cargo:rustc-link-lib=opencv_viz",
+        "cargo:rustc-link-lib=opencv_wechat_qrcode",
+        "cargo:rustc-link-lib=opencv_ximgproc",
+        "cargo:rustc-link-lib=opencv_video",
+        "cargo:rustc-link-lib=opencv_xobjdetect",
+        "cargo:rustc-link-lib=opencv_objdetect",
+        "cargo:rustc-link-lib=opencv_calib3d",
+        "cargo:rustc-link-lib=opencv_imgcodecs",
+        "cargo:rustc-link-lib=opencv_features2d",
+        "cargo:rustc-link-lib=opencv_dnn",
+        "cargo:rustc-link-lib=opencv_flann",
+        "cargo:rustc-link-lib=opencv_xphoto",
+        "cargo:rustc-link-lib=opencv_photo",
+        "cargo:rustc-link-lib=opencv_imgproc",
+        "cargo:rustc-link-lib=opencv_core",
+    ],
+}
+=== Detected OpenCV module header dir at: /usr/include/opencv4/opencv2
+=== Found OpenCV version: 4.6.0 in headers located at: /usr/include/opencv4
+=== Generating code in: /home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out
+=== Placing generated bindings into: /home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out/opencv
+=== Using OpenCV headers from: /usr/include/opencv4
+=== Clang: Ubuntu clang version 15.0.7
+=== Clang command line args: [
+    "-isystem/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13",
+    "-isystem/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13",
+    "-isystem/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward",
+    "-isystem/usr/lib/llvm-15/lib/clang/15.0.7/include",
+    "-isystem/usr/local/include",
+    "-isystem/usr/include/x86_64-linux-gnu",
+    "-isystem/usr/include",
+    "-I/usr/include/opencv4",
+    "-F/usr/include/opencv4",
+    "-I/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp",
+    "-F/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp",
+    "-DOCVRS_PARSING_HEADERS",
+    "-includeocvrs_common.hpp",
+    "-std=c++14",
+]
+=== Using environment job server with the the amount of available jobs: 8
+=== Generating 6 modules
+=== Running: "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-d1ee1d7f7bfb6372/build-script-build" "/usr/include/opencv4" "/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp" "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out" "calib3d" ""
+=== Running: "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-d1ee1d7f7bfb6372/build-script-build" "/usr/include/opencv4" "/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp" "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out" "features2d" ""
+=== Running: "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-d1ee1d7f7bfb6372/build-script-build" "/usr/include/opencv4" "/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp" "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out" "core" ""
+=== Running: "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-d1ee1d7f7bfb6372/build-script-build" "/usr/include/opencv4" "/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp" "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out" "flann" ""
+=== Running: "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-d1ee1d7f7bfb6372/build-script-build" "/usr/include/opencv4" "/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp" "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out" "highgui" ""
+=== Running: "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-d1ee1d7f7bfb6372/build-script-build" "/usr/include/opencv4" "/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp" "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out" "imgproc" ""
+=== Generated: highgui in 669.923516ms
+=== Generated: flann in 708.40547ms
+=== Generated: features2d in 1.171954651s
+=== Generated: calib3d in 2.314363934s
+=== Generated: imgproc in 2.639729802s
+=== Generated: core in 3.947001963s
+=== Total binding generation time: 3.947265357s
+=== Total binding collection time: 20.218656ms
+=== Compiler information: Tool {
+    path: "clang++-15",
+    cc_wrapper_path: None,
+    cc_wrapper_args: [],
+    args: [
+        "-O0",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fPIC",
+        "-gdwarf-4",
+        "-fno-omit-frame-pointer",
+        "--target=x86_64-unknown-linux-gnu",
+        "-I",
+        "/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opencv-0.84.5/src_cpp",
+        "-I",
+        "/home/buvr_tp4/ar-drivers-rs/target/debug/build/opencv-2da59da4560d1652/out",
+        "-I",
+        ".",
+        "-I",
+        "/usr/include/opencv4",
+        "-Wall",
+        "-Wextra",
+        "-std=c++11",
+        "-Wno-deprecated-declarations",
+        "-Wno-deprecated-copy",
+        "-Wno-unused-parameter",
+        "-Wno-sign-compare",
+        "-Wno-comment",
+        "-Wno-unused-variable",
+        "-Wno-ignored-qualifiers",
+        "-Wno-return-type-c-linkage",
+    ],
+    env: [],
+    family: Clang,
+    cuda: false,
+    removed_args: [],
+}
+=== Total cpp build time: 4.482595861s

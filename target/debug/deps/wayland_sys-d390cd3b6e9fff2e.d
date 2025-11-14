@@ -1,0 +1,11 @@
+/home/buvr_tp4/ar-drivers-rs/target/debug/deps/libwayland_sys-d390cd3b6e9fff2e.rmeta: /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/lib.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/common.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/client.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/server.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/egl.rs
+
+/home/buvr_tp4/ar-drivers-rs/target/debug/deps/libwayland_sys-d390cd3b6e9fff2e.rlib: /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/lib.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/common.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/client.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/server.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/egl.rs
+
+/home/buvr_tp4/ar-drivers-rs/target/debug/deps/wayland_sys-d390cd3b6e9fff2e.d: /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/lib.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/common.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/client.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/server.rs /home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/egl.rs
+
+/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/lib.rs:
+/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/common.rs:
+/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/client.rs:
+/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/server.rs:
+/home/buvr_tp4/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wayland-sys-0.28.6/src/egl.rs:

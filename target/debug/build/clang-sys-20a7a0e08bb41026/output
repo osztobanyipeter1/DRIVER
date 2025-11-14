@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/usr/lib/llvm-15/lib
+cargo:rustc-link-lib=dylib=clang-15.0.7
+cargo:include=/usr/lib/llvm-18/include
